@@ -27,3 +27,13 @@ export const normalizeChartData = (
     labelColor:
       index >= colorRange.length ? colorRange[index - colorRange.length] : colorRange[index],
   }));
+
+export const formatDollars = (number = 0) => {
+  const formatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    minimumFractionDigits: 2,
+  });
+
+  return formatter.format(number);
+}

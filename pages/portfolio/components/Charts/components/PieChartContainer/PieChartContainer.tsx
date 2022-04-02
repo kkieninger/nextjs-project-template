@@ -1,24 +1,17 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { useTooltip, useTooltipInPortal } from '@visx/tooltip';
 import { localPoint } from '@visx/event';
 import { ParentSize } from '@visx/responsive';
 import { Center, Heading, Text } from '@chakra-ui/react';
+import type { ProductData } from '../../types';
+
+// Components
 import Legend from '../Legend';
-import { ProductData } from '../../types';
 import PieChart from './components/PieChart';
 import EmptyPieChart from './components/EmptyPieChart';
 
-function getDollars(
-  number = 0
-) {
-  const formatter = new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD',
-    minimumFractionDigits: 2,
-  });
-
-  return formatter.format(number);
-}
+// Utils
+import { formatDollars } from '../../utils';
 
 interface Props {
   data: ProductData[];
@@ -143,7 +136,7 @@ const PieChartContainer = ({
                     </Text>
                     <Text size="md">
                       {isCurrency
-                        ? getDollars(tooltipData.value)
+                        ? formatDollars(tooltipData.value)
                         : `${tooltipData.value} ${valueDescriptor}`}
                     </Text>
                     <Text size="md">{`${Math.round(

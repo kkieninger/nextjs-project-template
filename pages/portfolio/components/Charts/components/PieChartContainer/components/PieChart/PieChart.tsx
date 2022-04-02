@@ -1,7 +1,6 @@
-import React from 'react';
 import { Pie } from '@visx/shape';
 import { Group } from '@visx/group';
-import { ProductData } from '../../../../types';
+import type { ProductData } from '../../../../types';
 
 interface Props {
   containerRef: (element: HTMLElement | SVGElement | null) => void;

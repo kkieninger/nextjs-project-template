@@ -1,10 +1,10 @@
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import { Bar } from '@visx/shape';
 import { Group } from '@visx/group';
 import { AxisLeft } from '@visx/axis';
 import { GridRows } from '@visx/grid';
 import { scaleBand, scaleLinear } from '@visx/scale';
-import { ProductData } from '../../../../types';
+import type { ProductData } from '../../../../types';
 
 interface Props {
   data: ProductData[];

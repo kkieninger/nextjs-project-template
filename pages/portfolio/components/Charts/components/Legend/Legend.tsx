@@ -1,9 +1,8 @@
-import React from 'react';
 import { LegendOrdinal, LegendLabel } from '@visx/legend';
-import { ChakraLegendItem } from './Legend.styles';
-import { Grid } from '@chakra-ui/react';
-import { ProductData } from '../../types';
 import { scaleOrdinal } from '@visx/scale';
+import type { ProductData } from '../../types';
+import { Grid } from '@chakra-ui/react';
+import { ChakraLegendItem } from './Legend.styles';
 
 interface Props {
   data: ProductData[];

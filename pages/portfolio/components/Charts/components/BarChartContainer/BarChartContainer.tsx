@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Center, Heading } from '@chakra-ui/react';
 import { ParentSize } from '@visx/responsive';
+import type { ProductData } from '../../types';
+
+// Components
 import Legend from '../Legend';
-import { ProductData } from '../../types';
 import BarChart from './components/BarChart';
 import EmptyBarChart from './components/EmptyBarChart';
 
