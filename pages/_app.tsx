@@ -9,7 +9,7 @@ const queryClient = new QueryClient();
 // Chakra UI setup
 const theme = extendTheme({ styles });
 
-function MyApp({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
       <QueryClientProvider client={queryClient}>
@@ -19,4 +19,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 }
 
-export default MyApp
+export default App;
