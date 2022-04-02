@@ -5,11 +5,9 @@ import {
   Box,
   Heading,
   Text,
-  Link,
-  Flex,
   SimpleGrid,
 } from '@chakra-ui/react';
-import { Card } from '@app/components';
+import { Card, Footer } from '@app/components';
 
 const Home: NextPage = () => {
   return (
@@ -39,33 +37,7 @@ const Home: NextPage = () => {
           />
         </SimpleGrid>
       </Box>
-      <Box
-        as="footer"
-        borderTop="1px solid"
-        borderColor="gray.300"
-        fontSize="sm"
-        textAlign="center"
-        p="3"
-      >
-        <Text>
-          {`Created by Kevin Kieninger | ${new Date().getFullYear()}`}
-        </Text>
-        <Flex
-          justify="space-between"
-          align="center"
-          maxW="400px"
-          my="4"
-          mx="auto"
-          color="orange.500"
-        >
-          <Link href="https://github.com/kkieninger" isExternal>
-            github
-          </Link>
-          <Link href="https://www.linkedin.com/in/kkieninger" isExternal>
-            linkedin
-          </Link>
-        </Flex>
-      </Box>
+      <Footer />
     </Container>
   )
 }
