@@ -3,51 +3,51 @@ import type { ChartData } from '@app/types/charts';
 export const chartData: ChartData[] = [
   {
     name: "adidas",
-    value: 1998,
+    value: 2250,
     volume: "10",
-    averagePrice: 222,
-    pricePremium: 0
+    averagePrice: 225,
+    pricePremium: 4
   },
   {
     name: "Funko Pop",
-    value: null,
-    volume: "1",
-    averagePrice: null,
-    pricePremium: 0
+    value: 200,
+    volume: "3",
+    averagePrice: 66,
+    pricePremium: 0.5
   },
   {
     name: "Puma",
-    value: null,
+    value: 125,
     volume: "1",
-    averagePrice: null,
-    pricePremium: 0
+    averagePrice: 125,
+    pricePremium: 1
   },
   {
     name: "Nike",
-    value: 250,
-    volume: "1",
-    averagePrice: 250,
+    value: 550,
+    volume: "4",
+    averagePrice: 135,
     pricePremium: 6
   },
   {
     name: "Supreme",
-    value: null,
-    volume: "1",
-    averagePrice: null,
-    pricePremium: 0
+    value: 600,
+    volume: "6",
+    averagePrice: 100,
+    pricePremium: 1.25
   },
   {
     name: "Trading Cards",
-    value: null,
+    value: 150,
     volume: "2",
-    averagePrice: null,
-    pricePremium: 0
+    averagePrice: 75,
+    pricePremium: 1
   },
   {
     name: "Vans",
-    value: null,
+    value: 50,
     volume: "1",
-    averagePrice: null,
-    pricePremium: 0
+    averagePrice: 50,
+    pricePremium: 0.5
   }
 ];

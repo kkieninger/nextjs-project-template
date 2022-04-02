@@ -3,21 +3,21 @@ import type { ProductData } from '../types';
 
 // @TODO - fix the colors
 const colorRange = [
-  '#00aeef',
-  '#f26c4f',
-  '#605ca8',
-  '#00a99d',
-  '#1b1464',
-  '#0072bc',
-  '#f7c000',
-  '#f7941d',
-  '#f0505f',
-  '#39b54a',
+  '#0BC5EA',
+  '#ECC94B',
+  '#48BB78',
+  '#ED8936',
+  '#ED64A6',
+  '#38B2AC',
+  '#F56565',
+  '#A0AEC0',
+  '#4299E1',
+  '#9F7AEA',
 ];
 
 // Normalize data and map chart colors to portfolio items
 export const normalizeChartData = (
-  data: ChartData[],
+  data: ChartData[] = [],
   chartValue: keyof ChartData,
 ): ProductData[] =>
   data.map((datum, index) => ({
