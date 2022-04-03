@@ -11,7 +11,7 @@ import PieChart from './components/PieChart';
 import EmptyPieChart from './components/EmptyPieChart';
 
 // Utils
-import { formatDollars } from 'pages/portfolio/utils';
+import { formatDollars } from '@app/utils';
 
 interface Props {
   data: ProductData[];

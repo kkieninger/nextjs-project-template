@@ -1,5 +1,5 @@
 import type { ChartData } from '@app/types';
-import type { ProductData } from '../components/Charts/types';
+import type { ProductData } from '../../components/portfolio/Charts/types';
 
 const colorRange = [
   '#0BC5EA',

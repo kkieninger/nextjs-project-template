@@ -9,8 +9,7 @@ import {
   Box,
   Divider,
 } from '@chakra-ui/react';
-import { ChildPage } from '@app/components';
-import { Charts, Table } from './components';
+import { ChildPage, Charts, Table } from '@app/components';
 
 const Portfolio: NextPage = () => {
   const meta = {

@@ -17,11 +17,13 @@
     "downlevelIteration": true,
     "baseUrl": ".",
     "paths": {
-      "@app/components": ["components"],
+      "@app/components": ["lib/components"],
+      "@app/components/*": ["lib/components/*"],
       "@app/data": ["data"],
       "@app/styles/*": ["styles/*"],
       "@app/types": ["types"],
-      "@app/types/*": ["types/*"]
+      "@app/types/*": ["types/*"],
+      "@app/utils": ["lib/utils"]
     },
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

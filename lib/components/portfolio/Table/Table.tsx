@@ -12,7 +12,7 @@ import {
   Box,
 } from '@chakra-ui/react';
 import Image from 'next/image';
-import { formatDollars } from 'pages/portfolio/utils';
+import { formatDollars } from '@app/utils';
 import { usePortfolioData } from './hooks';
 import { calculateGainLoss } from './utils';
 import { LoadingTable, TableError } from './components';
