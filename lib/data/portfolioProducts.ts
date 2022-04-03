@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import type { PortfolioProduct } from '@app/types/portfolio';
+import type { PortfolioProduct } from '@app/types';
 
 export const portfolioProducts: PortfolioProduct[] = [
   {

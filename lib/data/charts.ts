@@ -1,4 +1,4 @@
-import type { ChartData } from '@app/types/charts';
+import type { ChartData } from '@app/types';
 
 export const chartData: ChartData[] = [
   {

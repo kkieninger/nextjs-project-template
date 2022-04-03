@@ -87,10 +87,6 @@ const PieChartContainer = ({
   // show / hide portfolio items
   const handleLabelClick = (productName: string) => {
     if (fooOmittedItems.has(productName)) {
-      // setOmittedItems(
-      //   (fooOmittedItems) => new Set([...Array.from(fooOmittedItems)].filter((item) => item !== productName)),
-      // );
-
       setOmittedItems(
         (fooOmittedItems) => new Set([...fooOmittedItems].filter((item) => item !== productName)),
       );
