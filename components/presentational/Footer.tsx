@@ -20,6 +20,9 @@ const Footer = () => (
       mx="auto"
       color="orange.500"
     >
+      <Link href="https://github.com/kkieninger/nextjs-project-template" isExternal>
+        source
+      </Link>
       <Link href="https://github.com/kkieninger" isExternal>
         github
       </Link>

@@ -23,6 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 * `GET /api/status` - simple status / health check endpoint
 * `GET /api/chart` - returns a hardcoded array of objects used in the portfolio refactor experience
+* `GET /api/table` - returns a hardcoded array of objects used in the portfolio refactor experience
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 

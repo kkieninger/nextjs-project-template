@@ -1,7 +1,6 @@
 import type { ChartData } from '@app/types';
-import type { ProductData } from '../types';
+import type { ProductData } from '../components/Charts/types';
 
-// @TODO - fix the colors
 const colorRange = [
   '#0BC5EA',
   '#ECC94B',

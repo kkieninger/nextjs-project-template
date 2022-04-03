@@ -31,7 +31,7 @@ const Home: NextPage = () => {
           my={8}
         >
           <Card
-            title="Portfolio refactor"
+            title="Portfolio Refactor"
             href="/portfolio"
             description="A major refactor of a portfolio experience from Highcharts and Semantic UI into more modern technologies leveraging Visx, TypeScript and Chakra UI."
           />

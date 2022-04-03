@@ -3,7 +3,7 @@ import PieChartContainer from './components/PieChartContainer';
 import BarChartContainer from './components/BarChartContainer';
 import LoadingChart from './components/LoadingChart';
 import ChartError from './components/ChartError';
-import { normalizeChartData } from './utils';
+import { normalizeChartData } from '../../utils';
 import { useChartData } from './hooks';
 
 const Charts = () => {
