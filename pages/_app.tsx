@@ -1,7 +1,7 @@
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import type { AppProps } from 'next/app';
-import { styles } from '@app/styles/globals';
+import styles from '@app/styles';
 
 // React Query setup
 const queryClient = new QueryClient();

@@ -14,12 +14,15 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "downlevelIteration": true,
     "baseUrl": ".",
     "paths": {
-      "@app/components": ["components"],
-      "@app/data": ["data"],
-      "@app/styles/*": ["styles/*"],
-      "@app/types/*": ["types/*"]
+      "@app/components": ["lib/components"],
+      "@app/components/*": ["lib/components/*"],
+      "@app/data": ["lib/data"],
+      "@app/styles": ["lib/styles"],
+      "@app/types": ["lib/types"],
+      "@app/utils": ["lib/utils"]
     },
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
